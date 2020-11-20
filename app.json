@@ -1,0 +1,9 @@
+{
+  "name": "nginx-node-example",
+  "repository": "https://github.com/lordsnow9/nthero.git",
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-nginx.git"
+  }, {
+    "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }]
+}
